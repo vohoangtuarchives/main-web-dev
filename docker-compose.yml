@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  php:
+    build: './.docker/php/'
+    ports: 
+            - "80:80"
+    volumes:
+      - ./src/:/var/www/html/
+      - ./.docker/apache/demo.apache.conf:/etc/apache2/sites-enabled/demo.conf
+  mysql:
+    image: mysql:8
+    ports:
+      - "3306:3306"
+    volumes:
+    - ./.docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+    - mysqldata:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=laravel
+      - MYSQL_ROOT_PASSWORD=example
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mysql
+    volumes:
+      - phpmyadmindata:/var/www/html
+    ports:
+      - '8081:80'
+
+volumes:
+
+  mysqldata:
+  phpmyadmindata:
