@@ -1,6 +1,6 @@
 FROM php:8.1.2-apache
 
-RUN apt update -y && apt install -y zlib1g-dev libpng-dev libjpeg-dev
+RUN apt update -y && apt install -y zlib1g-dev libpng-dev libjpeg-dev git zip
 RUN docker-php-ext-install pdo_mysql bcmath opcache calendar
 RUN docker-php-ext-configure gd --with-jpeg && docker-php-ext-install gd
 
