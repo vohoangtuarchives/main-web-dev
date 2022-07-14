@@ -1,0 +1,27 @@
+{
+  "name": "packages/home",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hoang Tu",
+      "email": "vohoangtu0409@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^9.19"
+  },
+  "autoload": {
+    "psr-4": {
+      "Packages\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Packages\\Providers\\HomeServiceProvider"
+      ],
+      "aliases": { }
+    }
+  },
+  "minimum-stability": "dev"
+}

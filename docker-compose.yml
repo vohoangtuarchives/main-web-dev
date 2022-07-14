@@ -25,7 +25,7 @@ services:
     environment:
       PMA_HOST: mysql
     volumes:
-      - phpmyadmindata:/var/www
+      - phpmyadmindata:/var/www/html
     ports:
       - '8081:80'
 
