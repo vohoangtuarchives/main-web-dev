@@ -2,7 +2,7 @@
     <a href="https://github.com/jotcodeofficial/ultimate-readme">
         <img width="100px" src="images/logo.png" align="center" alt="The Ultimate Readme Logo" />
     </a>
- <h2 align="center">The Ultimate Readme</h2>
+ <h2 align="center">The Ultimate Readme (Example)</h2>
  <p align="center">The Ultimate Readme to use for your GitHub projects!</p>
 </p>
   <p align="center">
