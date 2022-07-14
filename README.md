@@ -1,35 +1,35 @@
 <p align="center">
-    <a href="https://github.com/jotcodeofficial/ultimate-readme">
-        <img width="100px" src="images/logo.png" align="center" alt="The Ultimate Readme Logo" />
+    <a href="https://github.com/vohoangtu0409/main-web-dev">
+        <img width="100px" src="images/logo.png" align="center" alt="Web Dev Packages Logo" />
     </a>
- <h2 align="center">The Ultimate Readme (Example)</h2>
- <p align="center">The Ultimate Readme to use for your GitHub projects!</p>
+ <h2 align="center">Web Dev Packages</h2>
+ <p align="center">Web Dev Packages Boilerplate</p>
 </p>
   <p align="center">
-    <a href="https://github.com/jotcodeofficial/ultimate-readme/network/members">
-      <img src="https://img.shields.io/github/forks/jotcodeofficial/ultimate-readme" />
+    <a href="https://github.com/vohoangtu0409/main-web-dev/network/members">
+      <img src="https://img.shields.io/github/forks/vohoangtu0409/main-web-dev" />
     </a>
-    <a href="https://github.com/jotcodeofficial/ultimate-readme/stargazers">
-      <img alt="Issues" src="https://img.shields.io/github/stars/jotcodeofficial/ultimate-readme" />
+    <a href="https://github.com/vohoangtu0409/main-web-dev/stargazers">
+      <img alt="Issues" src="https://img.shields.io/github/stars/vohoangtu0409/main-web-dev" />
     </a>
     <a href="https://twitter.com/intent/follow?screen_name=jotc0de" target="_blank">
-      <img alt="Twitter" src="https://img.shields.io/twitter/follow/jotc0de?style=social" />
+      <img alt="Twitter" src="https://img.shields.io/twitter/follow/vohoangtu0409?style=social" />
     </a>
     <br />
     <br />
-    <a href="https://blog.jotcode.com" target="_blank">
-      <img src="https://img.shields.io/badge/Blog-Jotcode%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
+    <a href="https://blog.tuezy.com" target="_blank">
+      <img src="https://img.shields.io/badge/Tuezy-Blog%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
     </a>
-    <a href="https://jotcode.com" target="_blank">
-      <img src="https://img.shields.io/badge/Website-Jotcode%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
+    <a href="https://tuezy.dev" target="_blank">
+      <img src="https://img.shields.io/badge/Website-Tuezy%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
     </a>
     
   </p>
 
   <p align="center">
-    <a href="https://github.com/jotcodeofficial/ultimate-readme/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/vohoangtu0409/main-web-dev/issues/new/choose">Report Bug</a>
     -
-    <a href="https://github.com/jotcodeofficial/ultimate-readme/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/vohoangtu0409/main-web-dev/issues/new/choose">Request Feature</a>
   </p>
 
 # Index
@@ -73,11 +73,11 @@
 ## About The Project
 
 <p align="center">
-    <a href="https://github.com/jotcodeofficial/ultimate-readme">
-        <img width="400px" src="images/project.png" align="center" alt="The Ultimate Readme Project Image" />
+    <a href="https://github.com/vohoangtu0409/main-web-dev">
+        <img width="400px" src="images/project.png" align="center" alt="Web Dev Packages Project Image" />
     </a>
- <h2 align="center">The Ultimate Readme</h2>
- <p align="center">The Ultimate Readme for your GitHub projects!</p>
+ <h2 align="center">Web Dev Packages</h2>
+ <p align="center">Web Dev Packages for your GitHub projects!</p>
 </p>
 
 So you have finished your project and the code is top notch.
@@ -101,23 +101,10 @@ README files typically include information on:
 
 ### Built With
 
-In this area you can list the different libraries and technologies that your project uses.
-* [Bootstrap](https://getbootstrap.com)
-* [Angular](https://angular.io/)
-* [Golang](https://golang.org/)
+* [Laravel](https://laravel.com/) v9.19
 
 
 ## Getting Started
-
-In this section you can provide instructions on how to setup your project on the users machine.
-You should give an introduction here before the concrete steps next.
-
-### Prerequisites
-
-This section should show what software is required before you can proceed with the installation.
-* [Node](https://nodejs.org/)
-* [MySQL](https://www.mysql.com/)
-
 
 ### Installation
 
@@ -125,7 +112,7 @@ Here you can provide the steps required to install your project on the users mac
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jotcodeofficial/ultimate-readme.git
+   git clone https://github.com/vohoangtu0409/main-web-dev.git
    ```
 3. Install NPM packages
    ```sh
@@ -173,15 +160,13 @@ Great things are a sum of their parts. By contributing your time and effort you 
 
 ## License
 
-Here is where you can provide the license you are using.
 Released under the MIT License.
-
 
 ## Contact
 
-[@jotc0de](https://twitter.com/jotc0de)
+[@vohoangtu0409](https://twitter.com/vohoangtu0409)
 
-contact@jotcode.com
+vohoangtu0409@gmail.com
 
 
 ## Support the Project :sparkling_heart:
@@ -194,10 +179,6 @@ Thanks! :heart:
 
 I would like to acknowledge the following projects for inspiration:
 
-https://github.com/othneildrew/Best-README-Template
-
-https://github.com/anuraghazra/github-readme-stats
-
-
+https://github.com/laravel/laravel
 
 
