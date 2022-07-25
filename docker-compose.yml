@@ -4,9 +4,11 @@ services:
     build: './.docker/php/'
     ports: 
             - "80:80"
+            - "443:443"
     volumes:
       - ./www:/var/www/
-      - ./.docker/apache/demo.apache.conf:/etc/apache2/sites-enabled/demo.conf
+      - ./.docker/apache/koding.men.conf:/etc/apache2/sites-enabled/koding.men.conf
+      - ./.docker/apache/tuezy.dev.conf:/etc/apache2/sites-enabled/tuezy.dev.conf
   mysql:
     image: mysql:8
     ports:
