@@ -1,5 +1,5 @@
 {
-  "name": "packages/home",
+  "name": "tuezy/packages",
   "license": "MIT",
   "authors": [
     {
@@ -8,19 +8,10 @@
     }
   ],
   "require": {
-    "laravel/framework": "^9.19"
   },
   "autoload": {
     "psr-4": {
       "Packages\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Packages\\Providers\\HomeServiceProvider"
-      ],
-      "aliases": { }
     }
   },
   "minimum-stability": "dev"
