@@ -1,0 +1,15 @@
+{
+    "name": "vohoangtu0409/main-web-dev",
+    "autoload": {
+        "psr-4": {
+            "Appx\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hoang Tu",
+            "email": "vohoangtu0409@gmail.com"
+        }
+    ],
+    "require": {}
+}

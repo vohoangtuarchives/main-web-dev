@@ -1,4 +1,4 @@
-FROM php:8.1.2-apache
+FROM php:8.1.8-apache
 
 RUN apt update -y && apt install -y zlib1g-dev libpng-dev libjpeg-dev git zip unzip curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -

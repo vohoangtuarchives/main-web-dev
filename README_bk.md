@@ -7,7 +7,7 @@ docker compose exec php bash
 ```
 
 ```
-chown -R www-data:www-data /var/www/html
+chown -R apache:apache /var/www/html
 ```
 
 # URL
