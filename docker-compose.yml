@@ -3,16 +3,19 @@ services:
   php:
     build: './.docker/php/'
     ports: 
-            - "8080:8080"
+            - "80:80"
             - "443:443"
+    restart: always
     volumes:
       - ./www:/var/www/
       - ./.docker/apache/koding.men.conf:/etc/apache2/sites-enabled/koding.men.conf
       - ./.docker/apache/tuezy.dev.conf:/etc/apache2/sites-enabled/tuezy.dev.conf
+      - ./.docker/apache/dev.test.conf:/etc/apache2/sites-enabled/dev.test.conf
   mysql:
     image: mysql:8
     ports:
       - "3306:3306"
+    restart: always
     volumes:
     - ./.docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
     - mysqldata:/var/lib/mysql
