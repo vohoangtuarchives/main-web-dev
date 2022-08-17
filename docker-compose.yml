@@ -29,6 +29,7 @@ services:
     image: phpmyadmin/phpmyadmin
     environment:
       PMA_HOST: mysql
+    restart: always
     volumes:
       - phpmyadmindata:/var/www/html
     ports:
