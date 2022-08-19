@@ -5,7 +5,13 @@
         }
     },
     "require": {
-        "laravel/framework": "^9.24",
-        "symfony/var-dumper": "^6.1"
+        "illuminate/container": "^8.83",
+        "illuminate/pipeline": "^8.83",
+        "illuminate/http": "^8.83",
+        "illuminate/session": "^8.83",
+        "illuminate/support": "^8.83",
+        "symfony/var-dumper": "^5.4",
+        "illuminate/routing": "^8.83",
+        "illuminate/config": "^8.83"
     }
 }
