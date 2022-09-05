@@ -11,6 +11,7 @@ services:
       - ./.docker/apache/koding.men.conf:/etc/apache2/sites-enabled/koding.men.conf
       - ./.docker/apache/tuezy.dev.conf:/etc/apache2/sites-enabled/tuezy.dev.conf
       - ./.docker/apache/dev.test.conf:/etc/apache2/sites-enabled/dev.test.conf
+      - ./.docker/apache/local.conf:/etc/apache2/sites-enabled/local.conf
   mysql:
     image: mysql:8
     ports:
