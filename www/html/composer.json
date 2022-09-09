@@ -1,0 +1,21 @@
+{
+    "name": "tuezy/plain-php",
+    "autoload": {
+        "files": ["functions.php", "configs.php"],
+        "psr-4": {
+            "Appx\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hoang Tu",
+            "email": "vohoangtu0409@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "*",
+        "illuminate/database": "^8.83",
+        "symfony/var-dumper": "^5.4"
+    }
+}

@@ -11,5 +11,7 @@
             "email": "vohoangtu0409@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/view": "^8.83"
+    }
 }

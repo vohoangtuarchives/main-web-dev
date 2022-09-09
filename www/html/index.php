@@ -1,12 +1,4 @@
 <?php
-require 'vendor/autoload.php';
+define('ROOT', __DIR__.DIRECTORY_SEPARATOR);
 
-use \Tuezy\Container\Container;
-use \Tuezy\Router\Router;
-$container = Container::getInstance();
-
-$container->assign('router', function(){
-    return new Router();
-});
-
-dump($container->get('router'));
+require ROOT . 'bootstrap/bootstrap.php';
